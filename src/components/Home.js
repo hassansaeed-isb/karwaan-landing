@@ -35,8 +35,6 @@ export default function Home() {
                         <div className="flex items-center">
                             <a
                                 href="https://wa.me/923335215568?text=Hi, I want to request a demo of Karvaan platform"
-                                target="_blank"
-                                rel="noopener noreferrer"
                                 className="bg-gradient-to-r from-primary-600 to-accent-600 text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-xl font-semibold text-sm sm:text-base hover:from-primary-700 hover:to-accent-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
                             >
                                 <span className="hidden sm:inline">Request Demo</span>
@@ -60,7 +58,7 @@ export default function Home() {
                                 <span className="text-xs">✨</span>
                                 <span>Benefits</span>
                             </a>
-                            <a href="https://wa.me/923335215568?text=Hi, I'd like to know more about Karvaan features" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 bg-green-50 hover:bg-green-100 text-green-700 hover:text-green-800 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 whitespace-nowrap">
+                            <a href="https://wa.me/923335215568?text=Hi, I'd like to know more about Karvaan features" className="flex items-center space-x-2 bg-green-50 hover:bg-green-100 text-green-700 hover:text-green-800 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 whitespace-nowrap">
                                 <span className="text-xs">💬</span>
                                 <span>Get Started</span>
                             </a>
@@ -427,10 +425,10 @@ export default function Home() {
                         <div className="text-gray-300 text-sm sm:text-base">Join travel agencies from Karachi, Lahore, Islamabad already using Karvaan</div>
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center px-4">
-                        <a href="https://wa.me/923335215568?text=Hi, I want to start using Karvaan travel platform" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-yellow-500 to-orange-500 text-gray-900 px-8 sm:px-12 py-4 sm:py-5 rounded-xl text-lg sm:text-xl font-bold hover:from-yellow-400 hover:to-orange-400 transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                        <a href="https://wa.me/923335215568?text=Hi, I want to start using Karvaan travel platform" className="bg-gradient-to-r from-yellow-500 to-orange-500 text-gray-900 px-8 sm:px-12 py-4 sm:py-5 rounded-xl text-lg sm:text-xl font-bold hover:from-yellow-400 hover:to-orange-400 transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
                             Get Started Now
                         </a>
-                        <a href="https://wa.me/923335215568?text=Hi, I'd like to see a demo of Karvaan platform" target="_blank" rel="noopener noreferrer" className="border-2 border-white/30 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold hover:bg-white/10 transition-all duration-300 text-center">
+                        <a href="https://wa.me/923335215568?text=Hi, I'd like to see a demo of Karvaan platform" className="border-2 border-white/30 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold hover:bg-white/10 transition-all duration-300 text-center">
                             Request Demo
                         </a>
                     </div>
