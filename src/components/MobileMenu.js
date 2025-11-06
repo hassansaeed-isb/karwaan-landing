@@ -42,7 +42,7 @@ const MobileMenu = () => {
         <>
           {/* Backdrop */}
           <div 
-            className="fixed inset-0 z-40 bg-black/30 backdrop-blur-sm" 
+            className="fixed inset-0 z-40 bg-black bg-opacity-30 backdrop-blur-sm" 
             onClick={toggleMenu}
           />
           
@@ -70,11 +70,11 @@ const MobileMenu = () => {
                   <div className="flex items-center justify-between">
                     <div>
                       <h2 className="text-white font-bold text-2xl font-poppins tracking-wide">KARVAAN</h2>
-                      <p className="text-white/70 text-sm font-medium mt-1">Travel Platform</p>
+                      <p className="text-white text-opacity-70 text-sm font-medium mt-1">Travel Platform</p>
                     </div>
                     <button
                       onClick={toggleMenu}
-                      className="w-10 h-10 rounded-xl bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all duration-200 flex items-center justify-center"
+                      className="w-10 h-10 rounded-xl bg-white bg-opacity-10 hover:bg-white hover:bg-opacity-20 backdrop-blur-sm transition-all duration-200 flex items-center justify-center"
                     >
                       <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
