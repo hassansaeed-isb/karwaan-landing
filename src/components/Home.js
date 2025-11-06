@@ -6,10 +6,10 @@ export default function Home() {
     return (
         <div className="min-h-screen bg-white">
             {/* Classy Mobile Navigation */}
-            <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-xl z-50">
+            <nav className="fixed top-0 w-full bg-white bg-opacity-95 backdrop-blur-xl z-50">
                 <div className="px-4 sm:px-6 lg:px-8">
                     {/* Main Navigation Bar */}
-                    <div className="flex justify-between items-center h-16 sm:h-18 border-b border-gray-100/50">
+                    <div className="flex justify-between items-center h-16 sm:h-18 border-b border-gray-100 border-opacity-50">
                         {/* Logo */}
                         <div className="flex items-center">
                             <KarvaanLogo className="h-8 sm:h-10 w-auto" />
@@ -214,7 +214,7 @@ export default function Home() {
                             }
                         ].map((feature, index) => (
                             <div key={index} className="text-center">
-                                <div className="w-12 sm:w-16 h-12 sm:h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6">
+                                <div className="w-12 sm:w-16 h-12 sm:h-16 bg-white bg-opacity-20 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                     <svg className="w-6 sm:w-8 h-6 sm:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={feature.icon} />
                                     </svg>
@@ -387,7 +387,7 @@ export default function Home() {
                             Complete solution for Umrah, Tours, and B2B marketplace
                         </p>
                     </div>
-                    <div className="bg-white/10 backdrop-blur-sm p-6 sm:p-8 lg:p-10 rounded-3xl border border-white/20 mb-8 sm:mb-12">
+                    <div className="bg-white bg-opacity-10 backdrop-blur-sm p-6 sm:p-8 lg:p-10 rounded-3xl border border-white border-opacity-20 mb-8 sm:mb-12">
                         <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">Complete Platform Features:</h3>
                         <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 text-left">
                             {[
@@ -428,7 +428,7 @@ export default function Home() {
                         <a href="https://wa.me/923335215568?text=Hi, I want to start using Karvaan travel platform" className="bg-gradient-to-r from-yellow-500 to-orange-500 text-gray-900 px-8 sm:px-12 py-4 sm:py-5 rounded-xl text-lg sm:text-xl font-bold hover:from-yellow-400 hover:to-orange-400 transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
                             Get Started Now
                         </a>
-                        <a href="https://wa.me/923335215568?text=Hi, I'd like to see a demo of Karvaan platform" className="border-2 border-white/30 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold hover:bg-white/10 transition-all duration-300 text-center">
+                        <a href="https://wa.me/923335215568?text=Hi, I'd like to see a demo of Karvaan platform" target="_blank" rel="noopener noreferrer" className="border-2 border-white border-opacity-30 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold hover:bg-white hover:bg-opacity-10 transition-all duration-300 text-center">
                             Request Demo
                         </a>
                     </div>

@@ -64,4 +64,10 @@ module.exports = {
     },
   },
   plugins: [],
+  corePlugins: {
+    // Ensure opacity utilities are enabled
+    backgroundOpacity: true,
+    borderOpacity: true,
+    textOpacity: true,
+  },
 }
